@@ -97,7 +97,7 @@ function imageminTask(){
 //ブラウザの設定(自分で設定)
 function browsersyncServe(cb) {
  browsersync.init({
-      proxy: 'http://sumigoya.wp/',  // Local by Flywheelのドメイン
+      proxy: 'http://common.wp/',  // Local by Flywheelのドメインを入力。最後の/も入れる
       open: true,
       watchOptions: {
           debounceDelay: 1000  //1秒間、タスクの再実行を抑制
