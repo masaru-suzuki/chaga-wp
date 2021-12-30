@@ -51,10 +51,15 @@
     "plugins": [],
     "map": false
   },
-  "scripts": {},
+  "scripts": {
+    "start": "yarn run gulp"
+  },
   "main": "index.js",
   "dependencies": {
     "browser-sync": "^2.26.14",
     "cssnano": "^4.1.10"
+  },
+  "volta": {
+    "node": "14.18.2"
   }
 }

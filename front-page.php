@@ -19,9 +19,9 @@ get_header();
 <main id="primary" class="site-main">
   <!-- action button -->
   <div class="actionBtn action_bottom_modal_btn__left">
-    <p class="action_bottom_modal_btn__ttl">河原町店のご予約</p>
+    <p class="action_bottom_modal_btn__ttl">aeainoestarsitne</p>
     <a href="" class="action_bottom_modal_btn__txt">022-215-2989</a>
-    <a href="" class="action_bottom_modal_btn__txt net">ネット予約</a>
+    <a href="" class="action_bottom_modal_btn__txt net">iaiotatietan</a>
   </div>
   <div class="actionBtn action_bottom_modal_btn__right">
     <p class="action_bottom_modal_btn__ttl">東口店のご予約</p>
