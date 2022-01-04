@@ -1,63 +1,25 @@
 <?php
-/**
- * Template part for displaying posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package wp_common
- */
+  $categories = get_the_category();
+  //カテゴリの1つ目だけ
+  $cat_name = $categories[0]->name;      //カテゴリ名
+  // tagを生成
+    if ($cat_name == 'news') {
+      $tag = "お知らせ";
+    } else if($cat_name == "production") {
+      $tag = "商品情報";
+    }else if($cat_name == "topics") {
+      $tag = "トピック";
+    }else if($cat_name == "other") {
+      $tag = "その他";
+    } else {
+      $tag = null;
+    }
 
 ?>
-
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php
-		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
-
-		if ( 'post' === get_post_type() ) :
-			?>
-			<div class="entry-meta">
-				<?php
-				wp_common_posted_on();
-				wp_common_posted_by();
-				?>
-			</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
-
-	<?php wp_common_post_thumbnail(); ?>
-
-	<div class="entry-content">
-		<?php
-		the_content(
-			sprintf(
-				wp_kses(
-					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'wp_common' ),
-					array(
-						'span' => array(
-							'class' => array(),
-						),
-					)
-				),
-				wp_kses_post( get_the_title() )
-			)
-		);
-
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'wp_common' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php wp_common_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-<?php the_ID(); ?> -->
+<div class="article__title-box">
+  <h1 class="article__title"><span class="article__tag"><?php echo $tag; ?></span><?php the_title(); ?></h1>
+  <p class="article__date"><?php the_time('Y.m.d'); ?></p>
+</div>
+<div class="article__contents">
+  <?php the_content('Read more'); ?>
+</div>

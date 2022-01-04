@@ -65,6 +65,14 @@
       $image = '/img/ogp/ogp.png';
       $css = '<link rel="stylesheet" href="' . get_template_directory_uri() . '/css/pp.min.css">';
     }
+    else if(is_single()){
+      $siteDescription = get_the_title();
+      $title = '紫翠チャーガ | ' . $siteDescription;
+      $description = '抗酸化力、免疫力向上に。ロシア産最高級チャーガ（カバノアナタケ）の紫翠チャーガをみなさまの健康にお役立てください。';
+      $url = nowUrl();
+      $image = '/img/ogp/ogp.png';
+      $css = '<link rel="stylesheet" href="' . get_template_directory_uri() . '/css/article.min.css">';
+    }
 
 ?>
 <?php if(is_page(6)): ?>
