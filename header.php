@@ -21,7 +21,7 @@
       $css = '<link rel="stylesheet" href="' . get_template_directory_uri() . '/css/chaga.min.css">';
       $js = '<script src="' . get_template_directory_uri() . '/js/chaga.min.js" defer></script>';
     }
-    else if(is_page(38)){
+    else if(is_page(2121)){
       $title = '紫翠チャーガ | よくある質問';
       $description = '紫翠チャーガの「よくあるご質問（FAQ）」のページです。お客さまからよくいただくご質問をまとめました。';
       $url = '/faq';
@@ -36,14 +36,14 @@
       $image = '/img/ogp/ogp.png';
       $css = '<link rel="stylesheet" href="' . get_template_directory_uri() . '/css/info.min.css">';
     }
-    else if(is_page(38)){
-      $title = '紫翠チャーガ | 代理店募集';
-      $description = '紫翠チャーガでは代理店販売（OEM）を募集しています。お気軽にお問い合わせください。';
-      $url = '/oem';
-      $image = '/img/ogp/ogp.png';
-      $css = '<link rel="stylesheet" href="' . get_template_directory_uri() . '/css/oem.min.css">';
-    }
-    else if(is_page(38)){
+    // else if(is_page(38)){
+    //   $title = '紫翠チャーガ | 代理店募集';
+    //   $description = '紫翠チャーガでは代理店販売（OEM）を募集しています。お気軽にお問い合わせください。';
+    //   $url = '/oem';
+    //   $image = '/img/ogp/ogp.png';
+    //   $css = '<link rel="stylesheet" href="' . get_template_directory_uri() . '/css/oem.min.css">';
+    // }
+    else if(is_page(2123)){
       $title = '紫翠チャーガ | 会社概要';
       $description = '抗酸化力、免疫力向上に。ロシア産最高級チャーガ（カバノアナタケ）の紫翠チャーガをみなさまの健康にお役立てください。';
       $url = '/company';
@@ -58,7 +58,7 @@
       $css = '<link rel="stylesheet" href="' . get_template_directory_uri() . '/css/contact.min.css">';
       $js = '<script src="' . get_template_directory_uri() . '/js/contact.min.js" defer></script>';
     }
-    else if(is_page(38)){
+    else if(is_page(3)){
       $title = '紫翠チャーガ | プライバシーポリシー';
       $description = '抗酸化力、免疫力向上に。ロシア産最高級チャーガ（カバノアナタケ）の紫翠チャーガをみなさまの健康にお役立てください。';
       $url = '/pp';
@@ -96,10 +96,10 @@
 
 <body id="js-body" <?php body_class(); ?>>
   <?php if(is_front_page()): ?>
-      <div class="fixed-mainvisual">
-      <div><img class="u-hidden-o-md" src="<?php echo get_template_directory_uri(); ?>/img/top/img-fixed-mainvisual-sp.jpg" alt=""><img class="u-hidden-u-lg" src="<?php echo get_template_directory_uri(); ?>/img/top/img-fixed-mainvisual-pc.jpg" alt=""></div>
-      <div><img class="u-hidden-o-md" src="<?php echo get_template_directory_uri(); ?>/img/top/img-fixed-mainvisual-sp.jpg" alt=""><img class="u-hidden-u-lg" src="<?php echo get_template_directory_uri(); ?>/img/top/img-fixed-mainvisual-pc.jpg" alt=""></div>
-      <div><img class="u-hidden-o-md" src="<?php echo get_template_directory_uri(); ?>/img/top/img-fixed-mainvisual-sp.jpg" alt=""><img class="u-hidden-u-lg" src="<?php echo get_template_directory_uri(); ?>/img/top/img-fixed-mainvisual-pc.jpg" alt=""></div>
+    <div class="fixed-mainvisual">
+      <div><img class="u-hidden-o-md" src="/img/top/img-fixed-mainvisual-1-sp.jpg" alt=""><img class="u-hidden-u-lg" src="/img/top/img-fixed-mainvisual-1-pc.jpg" alt=""></div>
+      <div><img class="u-hidden-o-md" src="/img/top/img-fixed-mainvisual-2-sp.jpg" alt=""><img class="u-hidden-u-lg" src="/img/top/img-fixed-mainvisual-2-pc.jpg" alt=""></div>
+      <div><img class="u-hidden-o-md" src="/img/top/img-fixed-mainvisual-3-sp.jpg" alt=""><img class="u-hidden-u-lg" src="/img/top/img-fixed-mainvisual-3-pc.jpg" alt=""></div>
     </div>
   <?php endif; ?>
 
