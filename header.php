@@ -63,7 +63,7 @@
       $description = '抗酸化力、免疫力向上に。ロシア産最高級チャーガ（カバノアナタケ）の紫翠チャーガをみなさまの健康にお役立てください。';
       $url = '/pp';
       $image = '/img/ogp/ogp.png';
-      $css = '<link rel="stylesheet" href="' . get_template_directory_uri() . '/css/pp.min.css">';
+      $css = '<link rel="stylesheet" href="' . get_template_directory_uri() . '/css/privacy-policy.min.css">';
     }
     else if(is_single()){
       $siteDescription = get_the_title();
@@ -72,6 +72,11 @@
       $url = nowUrl();
       $image = '/img/ogp/ogp.png';
       $css = '<link rel="stylesheet" href="' . get_template_directory_uri() . '/css/article.min.css">';
+    }
+    else if(is_404()){
+      $siteDescription = get_the_title();
+      $title = '紫翠チャーガ｜ページが見つかりません';
+      $css = '<link rel="stylesheet" href="' . get_template_directory_uri() . '/css/404.min.css">';
     }
 
 ?>
