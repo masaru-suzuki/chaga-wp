@@ -44,6 +44,6 @@ get_header();
         </div>
       </div>
     </section><a class="section-instagram" href="">
-      <p>Instagramでも各種商品の案内や情報を発信しています！</p><img src="/img/common/icon-instagram.svg" alt=""></a>
+      <p>Instagramでも各種商品の案内や情報を発信しています！</p><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-instagram.svg" alt=""></a>
 <?php
 get_footer();

@@ -68,6 +68,6 @@ get_header();
         <div class="arrow"></div></a><a class="btn-type1" href="/">トップページへ戻る
         <div class="arrow"></div></a>
     </div><a class="section-instagram" href="https://www.instagram.com/shisuichaga/" target="_blank">
-      <p>Instagramでも各種商品の案内や情報を発信しています！</p><img src="/img/common/icon-instagram.svg" alt=""></a>
+      <p>Instagramでも各種商品の案内や情報を発信しています！</p><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-instagram.svg" alt=""></a>
 <?php
 get_footer();

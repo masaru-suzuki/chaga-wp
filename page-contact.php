@@ -12,7 +12,7 @@ get_header();
       <div class="contact-tel__wrapper">
         <h2 class="contact-tel__section-title">電話でのお問い合わせ</h2>
         <div class="contact-tel__text-box">
-          <div class="contact-tel__tel"><img src="/img/common/icon-tel-black.svg" alt="">
+          <div class="contact-tel__tel"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-tel-black.svg" alt="">
             <h3><a href="tel:0112805220">0120-197-013</a></h3>
           </div>
           <p class="contact-tel__note">平日9:00~17:00（祝日・年末年始を除く）</p>
@@ -49,7 +49,7 @@ get_header();
         </div>
       </div>
     </section><a class="section-instagram" href="https://www.instagram.com/shisuichaga/" target="_blank">
-      <p>Instagramでも各種商品の案内や情報を発信しています！</p><img src="/img/common/icon-instagram.svg" alt=""></a>
+      <p>Instagramでも各種商品の案内や情報を発信しています！</p><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-instagram.svg" alt=""></a>
 <?php
 // get_sidebar();
 get_footer();

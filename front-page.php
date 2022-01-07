@@ -1,25 +1,25 @@
 <?php
 get_header();
 ?>
-    <section class="main-visual" id="js-main-visual"><img class="main-visual__logo" src="/img/common/logo.png" alt="">
+    <section class="main-visual" id="js-main-visual"><img class="main-visual__logo" src="<?php echo get_template_directory_uri(); ?>/img/common/logo.png" alt="">
       <div class="main-visual__text-box">
         <h2 class="main-visual__title">チャーガとは</h2>
         <p class="main-visual__sub-title">About chaga</p>
         <p class="main-visual__lead">和名はカバノアナタケ。<br>｢森の宝石｣とも呼ばれる<br>白樺の幹に寄生するキノコのことです。</p>
-        <div class="main-visual__img-box u-hidden-o-md"><img src="/img/top/img-mainvisual.jpg" alt=""></div>
+        <div class="main-visual__img-box u-hidden-o-md"><img src="<?php echo get_template_directory_uri(); ?>/img/top/img-mainvisual.jpg" alt=""></div>
         <p class="main-visual__text">導入テキストが入ります。和名はカバノアナタケ。｢森の宝石｣とも呼ばれる白樺の幹に寄生するキノコのことです。導入テキストが入ります。和名はカバノアナタケ。｢森の宝石｣とも呼ばれる白樺の幹に寄生するキノコのことです。導入テキストが入ります。</p><a class="btn-type1" href="/chaga">チャーガについて
           <div class="arrow"></div></a>
       </div>
     </section>
-    <div class="fixed-link" id="js-fixed-link"><a class="fixed-link__shopify" href="https://shisui-chaga.myshopify.com/collections/all/" target="_blank">購入する</a><a class="fixed-link__instagram" href="https://www.instagram.com/shisuichaga/" target="_blank">Follow us<img src="/img/common/icon-instagram.svg" alt=""></a></div>
+    <div class="fixed-link" id="js-fixed-link"><a class="fixed-link__shopify" href="https://shisui-chaga.myshopify.com/collections/all/" target="_blank">購入する</a><a class="fixed-link__instagram" href="https://www.instagram.com/shisuichaga/" target="_blank">Follow us<img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-instagram.svg" alt=""></a></div>
     <div class="contents-wrapper" id="js-contents-wrapper">
       <div class="item-slider">
-        <div class="item-slider__item"><img src="/img/top/img-slider1.jpg" alt=""></div>
-        <div class="item-slider__item"><img src="/img/top/img-slider2.jpg" alt=""></div>
-        <div class="item-slider__item"><img src="/img/top/img-slider3.jpg" alt=""></div>
-        <div class="item-slider__item"><img src="/img/top/img-slider1.jpg" alt=""></div>
-        <div class="item-slider__item"><img src="/img/top/img-slider2.jpg" alt=""></div>
-        <div class="item-slider__item"><img src="/img/top/img-slider3.jpg" alt=""></div>
+        <div class="item-slider__item"><img src="<?php echo get_template_directory_uri(); ?>/img/top/img-slider1.jpg" alt=""></div>
+        <div class="item-slider__item"><img src="<?php echo get_template_directory_uri(); ?>/img/top/img-slider2.jpg" alt=""></div>
+        <div class="item-slider__item"><img src="<?php echo get_template_directory_uri(); ?>/img/top/img-slider3.jpg" alt=""></div>
+        <div class="item-slider__item"><img src="<?php echo get_template_directory_uri(); ?>/img/top/img-slider1.jpg" alt=""></div>
+        <div class="item-slider__item"><img src="<?php echo get_template_directory_uri(); ?>/img/top/img-slider2.jpg" alt=""></div>
+        <div class="item-slider__item"><img src="<?php echo get_template_directory_uri(); ?>/img/top/img-slider3.jpg" alt=""></div>
       </div><a class="btn-type1 u-mt-60-xs u-mt-80-lg" href="https://shisui-chaga.myshopify.com/collections/all/" target="_blank">商品一覧へ
         <div class="arrow"></div></a>
       <section class="section-efficacy">
@@ -45,7 +45,7 @@ get_header();
               <div class="section-efficacy__description-next u-hidden-u-lg" id="js-efficacy-next-btn"></div>
               <div class="section-efficacy__description-prev u-hidden-u-lg" id="js-efficacy-prev-btn"></div>
               <p id="js-efficacy-description">チャーガの栄養素の働きについてのテキストを入れられます。上記の各要素をタップするとテキストがそれぞれ入れ替わるようになりますテキストは４行まで入れられます４行まで入ります４行まで入ります４るとテキストがそれぞれ入れ替わるようになりますテキストは４行まで入れられます４行まで入ります４行まで入ります４るとテキストがそれぞれ入れ替わるようになりますテキストは４行まで入れられます４行まで入ります４行まで入ります４</p>
-            </div><img class="section-efficacy__img" src="/img/top/img-efficacy.png" alt="">
+            </div><img class="section-efficacy__img" src="<?php echo get_template_directory_uri(); ?>/img/top/img-efficacy.png" alt="">
           </div>
         </div>
       </section>
@@ -53,7 +53,7 @@ get_header();
         <div class="section-belief__lead">
           <div class="section-belief__lead-wrapper">
             <h2 class="section-belief__title">チャーガ専門ブランド<br>紫翠のこだわり</h2>
-            <p class="section-belief__contents-text section-belief__sub-title">Chaga specialty brand Shisui’s philosophy</p><img src="/img/top/img-belief-sp.jpg" alt="">
+            <p class="section-belief__contents-text section-belief__sub-title">Chaga specialty brand Shisui’s philosophy</p><img src="<?php echo get_template_directory_uri(); ?>/img/top/img-belief-sp.jpg" alt="">
             <p class="section-belief__contents-text section-belief__text">“みなさまの身体と人生が、<br>美しくみずみずしくありますように”<br>という私たちの健康に対する想いを込めました。</p>
           </div>
         </div>
@@ -63,7 +63,7 @@ get_header();
               <div class="accordion__title-box">
                 <h3 class="accordion__title section-belief__contents-title">01 ロシア産最高級チャーガ</h3>
               </div>
-              <div class="accordion__content"><img src="/img/top/img-belief-accordion-1.jpg" alt="">
+              <div class="accordion__content"><img src="<?php echo get_template_directory_uri(); ?>/img/top/img-belief-accordion-1.jpg" alt="">
                 <p class="section-belief__contents-text">チャーガ（和名カバノアナタケ）はシベリアや北海道を含め様々な地域での栽培が可能ですが、ロシア、バイカル地域の-40℃の肥沃な極寒地域で育つチャーガの効能は他と比べはるかに上回ります。</p>
                 <p class="section-belief__contents-text">広大なロシアの極寒を耐え抜き、自然の恵みを存分に蓄えたチャーガは、その希少価値と栄養成分の高さから「森のダイヤモンド」と呼ばれております。</p>
                 <p class="section-belief__contents-text">私たちは、そんなロシア産一等級チャーガを皆様の健康と人生に寄り添うパートナーとして自信を持ってお届けします。</p>
@@ -75,7 +75,7 @@ get_header();
               <div class="accordion__title-box">
                 <h3 class="accordion__title section-belief__contents-title">02 安心安全の品質管理</h3>
               </div>
-              <div class="accordion__content"><img src="/img/top/img-belief-accordion-2.jpg" alt="">
+              <div class="accordion__content"><img src="<?php echo get_template_directory_uri(); ?>/img/top/img-belief-accordion-2.jpg" alt="">
                 <p class="section-belief__contents-text">毎日お口に入れるものだからこそ、安心安全の「本物」でなければなりません。</p>
                 <p class="section-belief__contents-text">紫翠チャーガは私たちが実際に現地へ足を運び、どんな環境で栽培されているのか、どのように生産されているのか、さらに現地の専門製造者がどんな人物なのかを知り、安全性や品質を直接確かめたうえで輸入販売しております。</p>
               </div>
@@ -89,7 +89,7 @@ get_header();
               <h3 class="section-belief__contents-title js-belief-toggle" id="belief-1"><span>02</span>安心安全の品質管理</h3>
             </li>
           </ul>
-          <div class="section-belief__contents-text-box fadeOn u-hidden-u-lg" id="js-belief-description"><img src="/img/top/img-belief-accordion-1.jpg" alt="">
+          <div class="section-belief__contents-text-box fadeOn u-hidden-u-lg" id="js-belief-description"><img src="<?php echo get_template_directory_uri(); ?>/img/top/img-belief-accordion-1.jpg" alt="">
             <p class="section-belief__contents-text">チャーガ（和名カバノアナタケ）はシベリアや北海道を含め様々な地域での栽培が可能ですが、<br>ロシア、バイカル地域の-40℃の肥沃な極寒地域で育つチャーガの効能は他と比べはるかに上回ります。</p>
             <p class="section-belief__contents-text">広大なロシアの極寒を耐え抜き、自然の恵みを存分に蓄えたチャーガは、その希少価値と栄養成分の高さから「森のダイヤモンド」と呼ばれております。</p>
             <p class="section-belief__contents-text">私たちは、そんなロシア産一等級チャーガを<br>皆様の健康と人生に寄り添うパートナーとして自信を持ってお届けします。</p>
@@ -145,7 +145,7 @@ get_header();
           </div>
         </div>
       </section><a class="section-instagram" href="https://www.instagram.com/shisuichaga/" target="_blank">
-        <p>Instagramでも各種商品の案内や情報を発信しています！</p><img src="/img/common/icon-instagram.svg" alt=""></a>
+        <p>Instagramでも各種商品の案内や情報を発信しています！</p><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-instagram.svg" alt=""></a>
     </div>
 
 <?php

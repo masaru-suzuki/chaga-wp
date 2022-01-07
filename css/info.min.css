@@ -47,7 +47,7 @@
   right: 33px;
   width: 8px;
   height: 13px;
-  background-image: url(/img/common/icon-chevron-right.svg);
+  background-image: url(../img/common/icon-chevron-right.svg);
   background-repeat: no-repeat;
   background-size: contain;
   content: '';
