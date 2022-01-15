@@ -119,7 +119,7 @@
   <header class="site-header" id="js-header">
     <div class="site-header__wrapper">
       <div class="site-header__contents">
-        <div class="js-btn-trigger" id="js-btn-trigger"><span></span><span></span><span></span></div><a class="site-header__brand" href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/common/logo.png" alt=""></a>
+        <div class="js-btn-trigger" id="js-btn-trigger"><span></span><span></span><span></span></div><a class="site-header__brand" href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/common/logo.png" alt="紫翠チャーガのロゴ"></a>
         <nav class="header-nav">
           <ul class="header-nav__wrapper">
             <li class="header-nav__item"><a href="/chaga">チャーガについて</a></li>
@@ -128,24 +128,24 @@
             <li class="header-nav__item"><a href="/info">お知らせ</a></li>
             <li class="header-nav__item"><a href="/contact">お問い合わせ</a></li>
             <li class="header-nav__item"><a href="/oem">代理店募集</a></li>
-            <li class="header-nav__item u-ml-30-lg"><a class="site-header__cart" href="https://shisui-chaga.myshopify.com/collections/all/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_shop.svg" alt=""></a></li>
+            <li class="header-nav__item u-ml-30-lg"><a class="site-header__cart" href="https://shisui-chaga.myshopify.com/collections/all/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_shop.svg" alt="ショッピングバッグ"></a></li>
           </ul>
         </nav><a class="site-header__cart u-hidden-o-lg" href="https://shisui-chaga.myshopify.com/collections/all/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon_shop.svg" alt=""></a>
         <!-- global nav-->
         <nav class="global-nav" id="js-global-nav">
           <div class="contents">
-            <div class="global-nav__logo-box"><img src="<?php echo get_template_directory_uri(); ?>/img/common/logo-nav.png" alt=""></div>
+            <div class="global-nav__logo-box"><img src="<?php echo get_template_directory_uri(); ?>/img/common/logo-nav.png" alt="紫翠チャーガのロゴ"></div>
             <ul class="global-nav__wrapper">
               <li class="global-nav__item is-page is-top">トップ<a href="/"></a></li>
               <li class="global-nav__item">チャーガについて<a href="/chaga"></a></li>
-              <li class="global-nav__item is-outside-link">ご購入<a href="https://shisui-chaga.myshopify.com/collections/all/" target="_blank"></a><img src="<?php echo get_template_directory_uri(); ?>/img/common/outside-link.svg" alt=""></li>
+              <li class="global-nav__item is-outside-link">ご購入<a href="https://shisui-chaga.myshopify.com/collections/all/" target="_blank"></a><img src="<?php echo get_template_directory_uri(); ?>/img/common/outside-link.svg" alt="ショッピングバッグのアイコン"></li>
               <li class="global-nav__item">よくある質問<a href="/faq"></a></li>
               <li class="global-nav__item">お知らせ<a href="info"></a></li>
               <li class="global-nav__item">代理店募集<a href="/oem"></a></li>
               <li class="global-nav__item">会社概要<a href="/company"></a></li>
               <li class="global-nav__item">お問い合わせ<a href="/contact"></a></li>
-              <li class="global-nav__item is-instagram">Follow us<a href="https://www.instagram.com/shisuichaga/"></a><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-logo-instagram.svg" alt=""></li>
-            </ul><a class="global-nav__instagram" href="https://www.instagram.com/shisuichaga/" target="_blank">Follow us<img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-logo-instagram.svg" alt=""></a>
+              <li class="global-nav__item is-instagram">Follow us<a href="https://www.instagram.com/shisuichaga/"></a><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-logo-instagram.svg" alt="インスタグラムのアイコン"></li>
+            </ul><a class="global-nav__instagram" href="https://www.instagram.com/shisuichaga/" target="_blank">Follow us<img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-logo-instagram.svg" alt="インスタグラムのアイコン"></a>
           </div>
         </nav>
       </div>

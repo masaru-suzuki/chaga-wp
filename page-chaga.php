@@ -17,7 +17,7 @@ get_header();
           <p class="section-about__sub-title">チャーガについて</p>
           <div class="section-about__title-box js-accordion-trigger">
             <h2 class="section-about__title">｢幻のキノコ｣として<br>伝承されてきたチャーガ</h2>
-            <button class="u-hidden-o-sm section-about__trigger-btn"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow.svg" alt=""></button>
+            <button class="u-hidden-o-sm section-about__trigger-btn"><img src="/img/common/icon-circle-arrow.svg" alt="矢印"></button>
           </div>
           <div class="accordion__content section-about__content">
             <p>チャーガとは、白樺の幹に寄生するサルノコシカケ類のキノコのことです。ロシア語のЧага＝chaga、和名はカバノアナタケと言います。</p>
@@ -25,26 +25,26 @@ get_header();
             <p>極寒の地でしか栽培されないチャーガは、その生命力の強さから最後には宿木を枯らしてしまうほど、白樺樹液の成分を吸収します。</p>
             <p>ロシアでは古く民族医薬として使用され、心臓病、肝臓病、胃病等様々な病気治療に効能を発揮してきた歴史があり、その驚異的な効能ゆえ幻のキノコと呼ばれ伝承されてきております。</p>
           </div>
-          <button class="u-hidden-u-md section-about__trigger-btn js-accordion-trigger"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow.svg" alt=""></button>
+          <button class="u-hidden-u-md section-about__trigger-btn js-accordion-trigger"><img src="/img/common/icon-circle-arrow.svg" alt="矢印"></button>
         </div>
         <div class="accordion__item section-about__accordion-block">
           <p class="section-about__sub-title">チャーガの栄養</p>
           <div class="section-about__title-box js-accordion-trigger">
             <h2 class="section-about__title">体のサビ(酸化)とコゲ(糖化)を<br>防ぐチャーガの栄養素</h2>
-            <button class="u-hidden-o-sm section-about__trigger-btn js-accordion-trigger"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow.svg" alt=""></button>
+            <button class="u-hidden-o-sm section-about__trigger-btn js-accordion-trigger"><img src="/img/common/icon-circle-arrow.svg" alt="矢印"></button>
           </div>
           <div class="accordion__content section-about__content">
             <p>チャーガが健康に良いとされてる理由には体の酸化と糖化を防ぐ成分にあります。<br>酸化と糖化は「体のサビ」「体のコゲ」と表現され、細胞機能を低下させ老化や糖尿病、認知症、脳梗塞、心筋梗塞など様々な病気の原因となります。</p>
             <p>チャーガには、強い抗酸化作用を持つフラボノイドをはじめβカロテン、リグニン、メラニンなどの抗酸化物質、免疫細胞を活性化するβグルカン（多糖類）などの豊富な栄養素を主成分とすることで、私たちの体内の細胞機能低下を防ぎ免疫力を増強してくれます。</p>
             <p>実際に近年の様々な研究により、各種ガン、慢性胃炎、胃潰瘍、肝臓病、消化器系疾患、動脈硬化、リウマチなどに対する免疫力の増強等に優れた有効性があることも広く認知されてます。</p>
           </div>
-          <button class="u-hidden-u-md section-about__trigger-btn js-accordion-trigger"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow.svg" alt=""></button>
+          <button class="u-hidden-u-md section-about__trigger-btn js-accordion-trigger"><img src="/img/common/icon-circle-arrow.svg" alt="矢印"></button>
         </div>
         <div class="accordion__item section-about__accordion-block">
           <p class="section-about__sub-title">チャーガの希少価値</p>
           <div class="section-about__title-box js-accordion-trigger">
             <h2 class="section-about__title">別名｢森のダイヤモンド｣と<br>呼ばれるほど希少価値が高い</h2>
-            <button class="u-hidden-o-sm section-about__trigger-btn"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow.svg" alt=""></button>
+            <button class="u-hidden-o-sm section-about__trigger-btn"><img src="/img/common/icon-circle-arrow.svg" alt="矢印"></button>
           </div>
           <div class="accordion__content section-about__content">
             <p>チャーガはその希少価値の高さから「森のダイヤモンド」といわれております。</p>
@@ -52,7 +52,7 @@ get_header();
             <p>成熟したチャーガが「見つかる確率は白樺2万本に1本」ともいわれるほどに希少価値が高いキノコです。</p>
             <p>加えて、チャーガはシベリアや北海道を含め様々な地域での栽培が可能ですが、-40℃の肥沃な極寒地域であるロシア、バイカル湖地域で育つ「紫翠チャーガ」が持つ栄養分は他と比べはるかに上回ります。</p>
           </div>
-          <button class="u-hidden-u-md section-about__trigger-btn js-accordion-trigger"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow.svg" alt=""></button>
+          <button class="u-hidden-u-md section-about__trigger-btn js-accordion-trigger"><img src="/img/common/icon-circle-arrow.svg" alt="矢印"></button>
         </div>
       </div><a class="btn-type1" href="https://shisui-chaga.myshopify.com/collections/all/" target="_blank">商品を見る
         <div class="arrow"></div></a>
@@ -100,10 +100,10 @@ get_header();
     <section class="section-how-to-make">
       <h2 class="section-how-to-make__title">紫翠チャーガの召し上がり方</h2>
       <ul class="section-how-to-make__contents">
-        <li class="section-how-to-make__step"><img src="<?php echo get_template_directory_uri(); ?>/img/about/img-howto-make-1.png" alt=""></li>
-        <li class="section-how-to-make__step"><img src="<?php echo get_template_directory_uri(); ?>/img/about/img-howto-make-2.png" alt=""></li>
-        <li class="section-how-to-make__step"><img src="<?php echo get_template_directory_uri(); ?>/img/about/img-howto-make-3.png" alt=""></li>
-        <li class="section-how-to-make__step"><img src="<?php echo get_template_directory_uri(); ?>/img/about/img-howto-make-4.png" alt=""></li>
+        <li class="section-how-to-make__step"><img src="/img/about/img-howto-make-1.png" alt="コップのイラスト1"></li>
+        <li class="section-how-to-make__step"><img src="/img/about/img-howto-make-2.png" alt="コップのイラスト2"></li>
+        <li class="section-how-to-make__step"><img src="/img/about/img-howto-make-3.png" alt="コップのイラスト3"></li>
+        <li class="section-how-to-make__step"><img src="/img/about/img-howto-make-4.png" alt="チャーガを飲んでいる女性のイラスト"></li>
       </ul>
       <p class="section-how-to-make__note">*健康に不安のある方は複数回の<span class="u-d-ib-xs">飲用をおすすめしております。</span></p><a class="btn-type1" href="https://shisui-chaga.myshopify.com/collections/all/" target="_blank">商品を見る
         <div class="arrow"></div></a>
@@ -122,8 +122,7 @@ get_header();
         </div>
       </div>
     </section><a class="section-instagram" href="https://www.instagram.com/shisuichaga/" target="_blank">
-      <p>Instagramでも各種商品の案内や情報を発信しています！</p><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-instagram.svg" alt=""></a>
-
+      <p>Instagramでも各種商品の案内や情報を発信しています！</p><img src="/img/common/icon-instagram.svg" alt="インスタグラムのアイコン"></a>
 
 <?php
 get_footer();

@@ -1,6 +1,6 @@
 <?php wp_footer(); ?>
   <footer class="footer" id="js-footer">
-    <div class="footer__inner"><a class="js-scroll-to-id top-link" href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-top-link.svg" alt=""></a><a class="footer__brand" href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/common/logo-white.png" alt=""></a>
+    <div class="footer__inner"><a class="js-scroll-to-id top-link" href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-top-link.svg" alt="トップに戻るボタン"></a><a class="footer__brand" href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/common/logo-white.png" alt=""></a>
       <ul class="footer-nav">
         <li class="footer-nav__item"><a href="/">トップ</a></li>
         <li class="footer-nav__item"><a href="https://shisui-chaga.myshopify.com/collections/all/" target="_blank">購入ページ<img src="<?php echo get_template_directory_uri(); ?>/img/common/outside-link-white.svg" alt=""></a></li>
@@ -12,14 +12,14 @@
       <div class="footer-contact">
         <div class="footer-contact__block">
           <p class="footer-contact__lead">お電話でのお問い合わせ</p>
-          <div class="footer-contact__link"><img class="is-tel" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-tel-white.svg" alt="">
+          <div class="footer-contact__link"><img class="is-tel" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-tel-white.svg" alt="電話">
             <p>0120-197-013</p>
           </div>
           <p class="footer-contact__note">受付時間 9:00~17:00 (土日祝を除く)</p>
         </div>
         <div class="footer-contact__block">
           <p class="footer-contact__lead">メールでのお問い合わせ</p>
-          <div class="footer-contact__link"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-mail-white.svg" alt=""><a class="is-small" href="/contact">お問い合わせフォーム</a></div>
+          <div class="footer-contact__link"><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-mail-white.svg" alt="メール"><a class="is-small" href="/contact">お問い合わせフォーム</a></div>
         </div>
       </div>
       <p class="copyright">©︎2022 株式会社エストラスト</p>

@@ -14,7 +14,7 @@ get_header();
         <ul class="accordion js-accordion section-faq__list">
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">エキスの中にかたまりのようなものがあるのですが。</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">エキスの中にかたまりのようなものがあるのですが。</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -24,7 +24,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">副作用の心配はありますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">副作用の心配はありますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -34,7 +34,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">ペットに飲ませても大丈夫ですか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">ペットに飲ませても大丈夫ですか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -44,7 +44,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">どのような味がしますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">どのような味がしますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -54,7 +54,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">妊娠中・授乳中でも飲用出来ますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">妊娠中・授乳中でも飲用出来ますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -64,7 +64,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">薬と併用しても大丈夫でしょうか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">薬と併用しても大丈夫でしょうか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -74,7 +74,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">チャーガの摂取上限量はありますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">チャーガの摂取上限量はありますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -84,7 +84,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">どのくらいの濃さで飲めば良いのですか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">どのくらいの濃さで飲めば良いのですか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -94,7 +94,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">どれくらい保存がきくのでしょうか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">どれくらい保存がきくのでしょうか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -104,7 +104,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">冷たいほうがいいの？温かいほうがいいの？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">冷たいほうがいいの？温かいほうがいいの？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -114,7 +114,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">子供や高齢者でも飲めますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">子供や高齢者でも飲めますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -124,7 +124,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">糖尿病を患っているのですがどう飲めばいいでしょうか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">糖尿病を患っているのですがどう飲めばいいでしょうか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -134,7 +134,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">保管方法を教えてください。</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">保管方法を教えてください。</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -144,7 +144,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">一日のうちどのタイミングで飲めばいいですか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">一日のうちどのタイミングで飲めばいいですか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -154,7 +154,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">実感するのにどれくらいかかるの？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">実感するのにどれくらいかかるの？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -164,7 +164,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">紫翠チャーガはどんな人にお勧めですか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">紫翠チャーガはどんな人にお勧めですか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -174,7 +174,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">注文後の変更、キャンセルは出来ますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">注文後の変更、キャンセルは出来ますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -184,7 +184,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">オンラインショップ以外でも注文できますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">オンラインショップ以外でも注文できますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -194,7 +194,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">定期購入したいのですがどうしたらいいでしょうか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">定期購入したいのですがどうしたらいいでしょうか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -204,7 +204,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">注文後どれくらいで届きますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">注文後どれくらいで届きますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -214,7 +214,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">返品はできますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">返品はできますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -224,7 +224,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">贈答用で購入したいのですがラッピングしてもらえますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">贈答用で購入したいのですがラッピングしてもらえますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -234,7 +234,7 @@ get_header();
           </li>
           <li class="accordion__item js-accordion-trigger section-faq__item">
             <div class="section-faq__title-box"><span class="section-faq__icon-question">Q</span>
-              <h2 class="section-faq__title">支払いはどんな方法が選べますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="">
+              <h2 class="section-faq__title">支払いはどんな方法が選べますか？</h2><img class="section-faq__open-btn" src="<?php echo get_template_directory_uri(); ?>/img/common/icon-circle-arrow-gray.svg" alt="矢印">
             </div>
             <div class="accordion__content">
               <div class="section-faq__text-box"><span class="section-faq__icon-answer">A</span>
@@ -256,6 +256,6 @@ get_header();
         </div>
       </div>
     </section><a class="section-instagram" href="https://www.instagram.com/shisuichaga/" target="_blank">
-      <p>Instagramでも各種商品の案内や情報を発信しています！</p><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-instagram.svg" alt=""></a>
+      <p>Instagramでも各種商品の案内や情報を発信しています！</p><img src="<?php echo get_template_directory_uri(); ?>/img/common/icon-instagram.svg" alt="インスタグラムのアイコン"></a>
 <?php
 get_footer();
