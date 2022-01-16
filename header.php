@@ -88,12 +88,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>"<?php echo $title; ?>"</title>
-  <meta name="description" content="<?php echo $description; ?>">
-  <meta property="og:title" content="<?php echo $title; ?>">
-  <meta property="og:description" content="<?php echo $description; ?>">
-  <meta property="og:url" content="<?php echo $url; ?>">
-  <meta property="og:image" content="<?php echo $image; ?>"><link rel="preconnect" href="https://fonts.googleapis.com">
+  <title><?php echo $title; ?></title>
+  <meta name="description" content=<?php echo $description; ?>>
+  <meta property="og:title" content=<?php echo $title; ?>>
+  <meta property="og:description" content=<?php echo $description; ?>>
+  <meta property="og:url" content=<?php echo $url; ?>>
+  <meta property="og:image" content=<?php echo $image; ?>><link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@300;400;700&display=swap" rel="stylesheet"><link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.min.css">
@@ -109,7 +109,7 @@
 
 <body id="js-body" <?php body_class(); ?>>
   <?php if(is_front_page()): ?>
-    <div class="fixed-mainvisual">
+    <div class="fixed-mainvisual" id="js-fixed-mainvisual">
       <div><img class="u-hidden-o-md" src="<?php echo get_template_directory_uri(); ?>/img/top/img-fixed-mainvisual-1-sp.jpg" alt=""><img class="u-hidden-u-lg" src="<?php echo get_template_directory_uri(); ?>/img/top/img-fixed-mainvisual-1-pc.jpg" alt=""></div>
       <div><img class="u-hidden-o-md" src="<?php echo get_template_directory_uri(); ?>/img/top/img-fixed-mainvisual-2-sp.jpg" alt=""><img class="u-hidden-u-lg" src="<?php echo get_template_directory_uri(); ?>/img/top/img-fixed-mainvisual-2-pc.jpg" alt=""></div>
       <div><img class="u-hidden-o-md" src="<?php echo get_template_directory_uri(); ?>/img/top/img-fixed-mainvisual-3-sp.jpg" alt=""><img class="u-hidden-u-lg" src="<?php echo get_template_directory_uri(); ?>/img/top/img-fixed-mainvisual-3-pc.jpg" alt=""></div>
