@@ -132,6 +132,7 @@ get_header();
               $link = get_permalink();
           ?>
               <div class="news-card">
+                <a class="spread-link" href="<?php echo $link; ?>"></a>
                 <div class="news-card__img"><img src=<?php echo the_post_thumbnail_url(); ?> alt=""></div>
                 <p class="news-card__date"><?php echo $date; ?></p>
                 <p class="news-card__title"><?php echo $title; ?></p>

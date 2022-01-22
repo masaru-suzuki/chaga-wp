@@ -81,7 +81,8 @@ get_header();
               $link = get_permalink();
           ?>
 
-              <li class="topics-card">
+            <li class="topics-card">
+              <a class="spread-link" href="<?php echo $link; ?>"></a>
               <div class="topics-card__img-box"><img class="topics-card__img" src="<?php echo the_post_thumbnail_url(); ?>" alt=""></div>
               <p class="topics-card__date"><?php echo $date; ?></p>
               <h3 class="topics-card__title"><?php echo $title; ?></h3>
